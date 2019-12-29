@@ -28,7 +28,7 @@ exclude:
     gemfile,
     Gemfile.lock,
   ]
-permalink: /:title/
+permalink: /:titLe/
 compress_html:
   clippings: all
   comments: all
@@ -36,33 +36,28 @@ dark_theme: false
 
 # Site meta
 title: Summer
-tagline: 'Delicious & healthy recipes'
-description: 'A simple Jekyll theme with a photo sidebar.'
-keywords: 'connor, bär, designer, traveller, code, jekyll, developer, theme'
-url: https://connor-baer.github.io
-baseurl: /summer
+tagline: 'Hellegood recipes'
+description: 'Hellebusch family/favorite recipes.'
+keywords: 'food, recipes'
+url: https://hellebusch.recipes
 assets: /assets
 images: /images/
 image: index-large.jpg
 logo: /assets/icons/apple-icon-144x144.png
 
 author:
-  name: Connor Bär
-  bio: Hi, I'm Connor, the author of this blog. Nice to meet you!
+  name: Sean Hellebusch
   image: author
-  url: https://connorbaer.co
-  email: hello@connorbaer.co
-  twitter: connor_baer
+  url: https://hellebusch.io
+  email: sahellebusch@gmail.com
 
 social:
-  twitter: https://twitter.com/connor_baer
-  instagram: https://instagram.com/connor_baer
-  github: https://github.com/connor-baer/summer
+  github: https://github.com/sahellebusch
 
 version: 2.0.0
 
 github:
-  repo: https://github.com/connor-baer/summer
+  repo: https://github.com/sahellebusch/hellebusch.recipes
 
 # Integrations
 # typekit:              fcv7rfe
@@ -77,8 +72,7 @@ google_fonts:
 excerpt_separator: <!-- Read more -->
 
 navigation:
-  GitHub: https://github.com/connor-baer/summer
-  Download: https://github.com/connor-baer/summer/archive/gh-pages.zip
+  GitHub: https://github.com/sahellebusch/hellebusch.recipes
 
 collections:
   recipes:
