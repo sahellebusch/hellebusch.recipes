@@ -36,7 +36,7 @@ dark_theme: false
 
 # Site meta
 title: Hellegood Recipes
-tagline: 'Hellegood recipes'
+tagline: 'Hellegood Recipes'
 description: 'Hellebusch family/favorite recipes.'
 keywords: 'food, recipes'
 url: https://hellebusch.recipes
@@ -65,8 +65,8 @@ github:
 google_fonts:
   Overpass: 400, 600, 800
 
-# google_analytics_key: UA-37412525-4
-# google_site_verification: Z-pc_HPc4XNBz8xg1fgtxO2MSIYLirZc2jWTNq0bJyM
+google_analytics_key: UA-37412525-4
+google_site_verification: Z-pc_HPc4XNBz8xg1fgtxO2MSIYLirZc2jWTNq0bJyM
 
 # Content
 excerpt_separator: <!-- Read more -->
