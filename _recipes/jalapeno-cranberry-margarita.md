@@ -26,8 +26,9 @@ ingredients:
 3. For extra fancy, garnish with a cranberry skewer.
 
 <br />
-*Notes:*
-* The original recipe called for Tanteo, but Kelly likes to make her own. If you want to, chop up 2 jalapenos, seeds removed, and put into the bottle. The longer it sits, the better it tastes.
+
+### *Notes:*
+* The original recipe called for Tanteo Jalapeno Vodka, but Kelly likes to make her own. If you want to, chop up 2 jalapenos, seeds removed, and put into the bottle. The longer it sits, the better it tastes.
 
 ---
 
