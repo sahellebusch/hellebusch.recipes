@@ -1,0 +1,32 @@
+#!/bin/bash
+
+RECIPE=$1
+echo Making new recipe template for "$RECIPE"
+
+echo "---
+title: Recipe Title
+ref: $RECIPE
+image: true
+time: 45
+category: lvkj
+tags: [salad, kale, greens, dinner]
+ingredients:
+  - name: sweet potatoes, cut in 1/2 inch circles
+    amount: 2 small
+    unit: 
+---
+
+1. Step 1!
+2. Step 2!
+
+
+### *Notes:*
+- The cesar dressing ingredients start with the second olive oil entry in the list.
+
+_From [Half Baked Harvest](https://www.halfbakedharvest.com/kale-caesar-salad/)._
+" >>  _recipes/$RECIPE.md
+
+cp temp.jpg _images/posts/$RECIPE.jpg
+
+npm run build
+jekyll serve
