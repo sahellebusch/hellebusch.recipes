@@ -37,5 +37,5 @@ ingredients:
 - If sauce turns out chunky, place in blender and blend until smooth.
 - Adjust salt, nutritional yeast and herbs to taste.
 
-_From [Half Baked Harvest](https://www.halfbakedharvest.com/kale-caesar-salad/)._
+_From [The Hidden Veggies](https://thehiddenveggies.com/alfredo-sauce-coconut-milk/?fbclid=IwAR0SkcM5NrPOtVbWKiQemyrCta0hwn0Ipvh0mtD4UN7EEX0joWXNEGXiXhw#wprm-recipe-container-5055)._
 
