@@ -8,7 +8,7 @@ title: Recipe Title
 ref: $RECIPE
 image: true
 time: 45
-category: lvkj
+category: dinner
 tags: [salad, kale, greens, dinner]
 ingredients:
   - name: sweet potatoes, cut in 1/2 inch circles
@@ -27,6 +27,8 @@ _From [Half Baked Harvest](https://www.halfbakedharvest.com/kale-caesar-salad/).
 " >>  _recipes/$RECIPE.md
 
 cp temp.jpg _images/posts/$RECIPE.jpg
+
+read -p "Replace the new image at _images/posts/$RECIPE.jpg and press enter"
 
 npm run build
 jekyll serve
