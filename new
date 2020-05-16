@@ -2,6 +2,7 @@
 
 RECIPE=$1
 echo Making new recipe template for "$RECIPE"
+git checkout -b $RECIPE
 
 echo "---
 title: Recipe Title
