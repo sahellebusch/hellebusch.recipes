@@ -21,7 +21,13 @@ gulp.task('setup', callback => {
 
 // 3. Build //
 
+const sequence = ['styles', 'scripts', 'images'];
+
+if (!process.env.SKIP_JEKYLL) {
+  sequence.push('jekyll');
+}
+
 // Run all tasks needed for a build in defined order.
 gulp.task('build', callback => {
-  runSequence('clean', ['styles', 'scripts', 'images', 'jekyll'], callback);
+  runSequence('clean', sequence, callback);
 });

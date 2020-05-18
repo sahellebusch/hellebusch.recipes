@@ -31,5 +31,6 @@ cp temp.jpg _images/posts/$RECIPE.jpg
 
 read -p "Replace the new image at _images/posts/$RECIPE.jpg and press enter"
 
-npm run build
-jekyll serve
+SKIP_JEKYLL=true npm run build
+bundle exec jekyll build
+bundle exec jekyll serve
